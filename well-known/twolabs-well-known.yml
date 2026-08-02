@@ -1,0 +1,33 @@
+generated: '2026-07-21'
+method: searched
+source: https://www.twolabs.ai
+host: https://www.twolabs.ai
+notes: Landing-page-only site for a Spring 2026 YC robotics startup; no well-known
+  discovery surface is published yet. Every probe below recorded its live HTTP
+  status — absence is valid data.
+documents:
+- path: /.well-known/security.txt
+  status: 404
+- path: /security.txt
+  status: 404
+- path: /.well-known/openid-configuration
+  status: 404
+- path: /.well-known/oauth-authorization-server
+  status: 404
+- path: /.well-known/api-catalog
+  status: 404
+- path: /.well-known/ai-plugin.json
+  status: 404
+- path: /llms.txt
+  status: 404
+- path: /robots.txt
+  status: 404
+- path: /sitemap.xml
+  status: 404
+subdomains_probed:
+- {host: docs.twolabs.ai, resolves: false}
+- {host: developers.twolabs.ai, resolves: false}
+- {host: api.twolabs.ai, resolves: false}
+- {host: status.twolabs.ai, resolves: false}
+- {host: blog.twolabs.ai, resolves: false}
+- {host: trust.twolabs.ai, resolves: false}
